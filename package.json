@@ -1,0 +1,16 @@
+{
+  "name": "github-hook-listener",
+  "version": "0.0.0",
+  "description": "GitHub Hook Listener",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Lepinski <william.lepinski@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.8.5",
+    "body-parser": "~1.6.5",
+    "morgan": "~1.2.3"
+  }
+}
