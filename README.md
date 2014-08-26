@@ -6,6 +6,7 @@ Simple Nodejs Express server that handle GitHub's Hook requests and update a fol
 ### Installing
 
 - Install Forever using <code>npm install -g forever</code>.
+- Clone this project and install it's dependencies using <code>npm install</code>.
 - Launch the index.js file using <code>GIT_PATH={PATH_THAT_CONTAINS_A_GITHUB_PROJECT} GIT_BRANCH="origin master" forever start index.js</code>.
 
 By default the server starts on port 3000, so make sure you have that port opened on your webserver configuration.
