@@ -25,8 +25,9 @@ var verifySignature = function (req, res, next) {
 };
 
 var executeUpdate = function (req, res, next) {
-    var command = exec('cd ' + process.env.GIT_PATH + '; git pull --rebase ' + process.env.GIT_BRANCH , function (error, stdout, stderr) {
-        console.log(stdout);
+    var command = exec('cd ' + process.env.GIT_PATH + '; ./update.sh' , function (error, stdout, stderr) {
+	console.error(error);
+        console.error(stdout);
         next();
     });
 };
