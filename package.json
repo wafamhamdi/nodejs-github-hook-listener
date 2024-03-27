@@ -9,7 +9,7 @@
   "author": "William Lepinski <william.lepinski@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "~4.8.5",
+    "express": "~4.19.2",
     "body-parser": "~1.6.5",
     "morgan": "~1.2.3"
   }
